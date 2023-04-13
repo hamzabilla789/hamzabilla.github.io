@@ -347,11 +347,12 @@ a:focus {
 }
 
 .slider_section .img-container .img-box {
-  width: 250px;
+  width: 310px;
 }
 
 .slider_section .img-container .img-box img {
   width: 100%;
+  height: auto;
 }
 
 .slider_section .play_btn {
@@ -503,8 +504,8 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 7px 25px;
-  background-color: #252525;
-  color: #ffffff;
+  background-color: #24d278;
+  color:#fff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid transparent;
@@ -512,10 +513,11 @@ a:focus {
   margin-top: 35px;
 }
 
+
 .about_section .detail-box a:hover {
   background-color: transparent;
-  border-color: #252525;
-  color: #252525;
+  border-color: #24d278;
+  color: #24d278;
 }
 
 .about_section .img-box img {
@@ -625,8 +627,8 @@ a:focus {
 .discount_section .detail-box a {
   display: inline-block;
   padding: 6px 30px;
-  background-color: #252525;
-  color: #ffffff;
+  background-color: #24d278;
+  color:#fff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: 1px solid transparent;
@@ -636,8 +638,8 @@ a:focus {
 
 .discount_section .detail-box a:hover {
   background-color: transparent;
-  border-color: #252525;
-  color: #252525;
+  border-color: #24d278;
+  color: #24d278;
 }
 
 .discount_section .img-box img {
@@ -681,7 +683,7 @@ a:focus {
   top: 0;
   left: 0;
   padding: 5px 35px;
-  background-color: #252525;
+  background-color: red;
   color: #ffffff;
 }
 
@@ -704,7 +706,7 @@ a:focus {
 .brand_section .brand-btn {
   display: inline-block;
   padding: 6px 30px;
-  background-color: #252525;
+  background-color: #24d278;
   color: #ffffff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -715,8 +717,9 @@ a:focus {
 
 .brand_section .brand-btn:hover {
   background-color: transparent;
-  border-color: #252525;
-  color: #252525;
+  border-color: #24d278;
+  color: #24d278;
+  
 }
 
 .contact_section {
@@ -987,6 +990,9 @@ a:focus {
 }
 .social_box i:hover{
   color: #24d278;
+}
+.social_box i{font-size: 25px;
+
 }
 
 .info_section .info_form .social_box a {
