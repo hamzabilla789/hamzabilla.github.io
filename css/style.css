@@ -37,6 +37,7 @@ body {
 }
 
 .heading_container h2 {
+  font-weight: bold;
   color: #252525;
   position: relative;
   font-family: 'Poppins', sans-serif;
@@ -936,6 +937,22 @@ a:focus {
 .info_section .info_contact p {
   margin: 0;
 }
+.info_contact h5{
+  color: #24d278;
+}
+.info_contact p a{
+text-decoration: none;
+color:#fff;
+}
+
+.info_contact p :hover{
+  color: #24d278;
+}
+
+.info_contact p:hover{
+  color: #24d278;
+
+}
 
 .info_section .info_contact > div {
   display: -webkit-box;
@@ -970,6 +987,9 @@ a:focus {
   margin-top: 15px;
   text-transform: uppercase;
   font-size: 15px;
+}
+.info_form h5{
+  color: #24d278;
 }
 
 .info_section .info_form form button:hover {
