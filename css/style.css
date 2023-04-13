@@ -982,6 +982,9 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
 }
+.social_box img a:hover{
+  color: #24d278;
+}
 
 .info_section .info_form .social_box a {
   margin-right: 25px;
