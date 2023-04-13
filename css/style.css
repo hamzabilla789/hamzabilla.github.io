@@ -982,7 +982,10 @@ a:focus {
   display: -ms-flexbox;
   display: flex;
 }
-.social_box img a:hover{
+.social_box i{
+  color: #f3f3f3;
+}
+.social_box i:hover{
   color: #24d278;
 }
 
