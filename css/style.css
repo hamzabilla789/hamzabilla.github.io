@@ -991,7 +991,9 @@ color:#fff;
 .info_form h5{
   color: #24d278;
 }
-
+button{
+  text-decoration: none;
+}
 .info_section .info_form form button:hover {
   background-color: transparent;
   border-color: #24d278;
